@@ -52,7 +52,7 @@ std::cerr << "clustering region clolor threshold set to 3." << std::endl;
 std::vector <pcl::PointIndices> clusters;
 std::cerr << "point indices object clusters created." << std::endl;
 
-clustering.extract(*clusters);
+clustering.extract(clusters);
 std::cerr << "clustering extracted into clusters." << std::endl;
 
 // For every cluster...
